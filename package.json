@@ -1,0 +1,28 @@
+{
+  "name": "pdf_remediation",
+  "version": "0.0.1",
+  "description": "node.js script created to allow for the auto generation of auto tagging and alt-text ",
+  "main": "pdf_helper.js",
+  "type": "module",
+  "scripts": {
+    "start": "node pdf_helper.js",
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "keywords": [
+    "pdf",
+    "accessibility"
+  ],
+  "author": "Terry Reese",
+  "license": " MIT-0 ",
+  "dependencies": {
+    "@adobe/pdfservices-node-sdk": "^4.1.0",
+    "@aws-sdk/client-bedrock-runtime": "^3.797.0",
+    "adm-zip": "^0.5.16",
+    "dotenv": "^16.5.0",
+    "pdf-lib": "^1.17.1",
+    "pngjs": "^7.0.0",
+    "sharp": "^0.34.1",
+    "shortid": "^2.2.17",
+    "xlsx": "^0.18.5"
+  }
+}
